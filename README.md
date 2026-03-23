@@ -81,6 +81,18 @@ Both hypotheses were confirmed empirically.
 ![Precision Recall](outputs/figures/04_precision_recall_tradeoff.png)
 *Strong dictionary dominates across both precision and F1-score, justifying the final selection of 26 high-confidence collocations.*
 
+### Dictionary Performance Comparison
+![Dictionary Performance](outputs/figures/05_dictionary_performance_comparison.png)
+*Bar chart comparing Accuracy, F1-Score, Precision, and Recall across all three dictionary versions. Strong dictionary leads on every metric.*
+
+### Structural Break Analysis — Before vs After 2017
+![Structural Break](outputs/figures/06_structural_break_analysis_2017.png)
+*Scatter plots showing the relationship between each economic indicator and nostalgic discourse, split by pre- and post-2017 constitutional change. The divergence in slopes confirms the structural shift hypothesis.*
+
+### Lag Effect Progression — R² Evolution Over Time
+![Lag Progression](outputs/figures/07_lag_effect_progression_r2.png)
+*R² values for each economic indicator as lag period increases from instant to 12 months. Inflation's predictive power surges uniquely at 12 months (R²=0.422), the clearest evidence for the concealment mechanism.*
+
 ---
 
 ## Repository Structure
